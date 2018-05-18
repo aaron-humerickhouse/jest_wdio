@@ -1,0 +1,16 @@
+[13:58:55]  COMMAND	POST 	 "/wd/hub/session"
+[13:58:55]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"browserName":"firefox","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.12.0","name":"webdriverio"}}}
+[13:58:57]  INFO	SET SESSION ID 879a5478-588a-2a44-a5c3-a2f22a75e195
+[13:58:57]  RESULT		{"moz:profile":"/var/folders/bf/mkgl537d5xv9t9nfqx8nf10ddtk9yc/T/rust_mozprofile.XjoqSTlAu5hN","rotatable":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"pageLoadStrategy":"normal","moz:headless":false,"moz:accessibilityChecks":false,"moz:useNonSpecCompliantPointerOrigin":false,"acceptInsecureCerts":false,"browserVersion":"59.0.2","platformVersion":"17.4.0","moz:processID":94092,"browserName":"firefox","platformName":"darwin","moz:webdriverClick":true}
+[13:58:57]  COMMAND	POST 	 "/wd/hub/session/879a5478-588a-2a44-a5c3-a2f22a75e195/url"
+[13:58:57]  DATA		{"url":"http://www.google.com/"}
+[13:58:58]  RESULT		{}
+[13:58:58]  COMMAND	POST 	 "/wd/hub/session/879a5478-588a-2a44-a5c3-a2f22a75e195/element"
+[13:58:58]  DATA		{"using":"id","value":"gb"}
+[13:58:58]  RESULT		{"element-6066-11e4-a52e-4f735466cecf":"780f7bf7-535f-ce48-8547-9fa31e458b8a"}
+[13:58:58]  COMMAND	GET 	 "/wd/hub/session/879a5478-588a-2a44-a5c3-a2f22a75e195/element/780f7bf7-535f-ce48-8547-9fa31e458b8a/text"
+[13:58:58]  DATA		{}
+[13:58:58]  RESULT		"About Store\nGmail\nImages\nSign in"
+[13:58:58]  COMMAND	DELETE 	 "/wd/hub/session/879a5478-588a-2a44-a5c3-a2f22a75e195"
+[13:58:58]  DATA		{}
+[13:58:59]  RESULT		{}
